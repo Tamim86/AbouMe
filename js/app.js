@@ -80,3 +80,11 @@ if (sport == 'yes'|| sport=='y'){
     alert('Don`t run away from the answer')
 }
 
+if (shisha=='yes'||shisha=="y"){
+    //console.log('Shake my Hands')
+    alert('Shake my Hands');
+
+}else if(shisha=='no'||shisha=='n'){
+    //console.log('Good for you')
+    alert('Good for you');
+}
