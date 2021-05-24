@@ -1,0 +1,49 @@
+header nav ul li{
+    color:rgb(243, 82, 82);
+    text-align: center;
+    display: inline;
+    margin-inline-start: 10px;
+    padding: 6%;
+    margin-bottom: 10%;
+    
+}
+
+main{
+    margin-top: 10%;
+}
+
+header img{
+    min-height: 5%;
+    min-width: 40px;
+    float: left;
+}
+
+body{
+    background-color: rgb(4, 102, 65);
+    
+}
+
+
+h1{
+    font: bold;
+    color: rgb(243, 82, 82);
+    margin-bottom: 3%;
+}
+
+#par1{
+    font-style: oblique;
+    color: rgb(243, 82, 82);
+    margin-bottom: 3%;
+}
+#par2{
+    font-style: oblique;
+    color: rgb(243, 82, 82);
+    margin-bottom: 3%;
+}
+
+#par3{
+    font-style: oblique;
+    color: rgb(243, 82, 82);
+    margin-bottom: 3%;
+}
+
