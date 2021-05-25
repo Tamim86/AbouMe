@@ -113,8 +113,11 @@ while(attempts <=4){
 
 
 }
-alert('The answer is 7, Almost there, nice run!');
-
+if(lucknum!==myluck){
+  alert('The answer is ' + myluck);
+}else{
+  console.log(lucknum);
+}
 
 let cities = ['istanbul', 'kuala lumpur', 'alanya', 'hague', 'dubai', 'beirut', 'candy'];
 let whatCity = prompt('Lets see, will you be able to guess my favorit cities?');
@@ -130,10 +133,54 @@ for(let i=0;i<=6;i++){
 
   }
 
-
-
-
 }
+
+let score = 0;
+switch(favAnim){
+case 'yes':
+case'y':
+  score++;
+  break;
+}
+switch(favFood){
+case'yes':
+case'y':
+  score++;
+  break;
+}
+switch(trvel){
+case'yes':
+case'y':
+  score++;
+  break;
+}
+switch(sport){
+case'yes':
+case'y':
+  score++;
+  break;
+}
+switch(shisha){
+case 'yes':
+case'y':
+  score++;
+  break;
+}
+switch(lucknum){
+case 7:
+  score++;
+  break;
+}
+if(cities.includes(whatCity)){
+  score++;
+
+}else{
+  console.log(score);
+}
+
+alert('your score is: ' + score);
+
+
 
 
 
