@@ -102,7 +102,8 @@ while(attempts <=4){
   }else if(Number(lucknum)<myluck-2){
     lucknum=prompt('Too low, try again!');
     lucknum= Number(lucknum);
-  }else if(Number(lucknum)===myluck){
+  }
+  else if(Number(lucknum)===myluck){
     console.log('OMG, You know the secret too!');
     alert('OMG, You know the secret too!');
     break;
@@ -110,7 +111,32 @@ while(attempts <=4){
 
   attempts++;
 
+
 }
+alert('The answer is 7, Almost there, nice run!');
+
+
+let cities = ['istanbul', 'kuala lumpur', 'alanya', 'hague', 'dubai', 'beirut', 'candy'];
+let whatCity = prompt('Lets see, will you be able to guess my favorit cities?');
+
+for(let i=0;i<=6;i++){
+  if(cities.includes(whatCity)){
+    console.log('Isn`t it amazing city?');
+    alert('Isn`t it amazing city?');
+    break;
+  }else{
+    console.log('Never been there, will visit in future Inshalla');
+    cities= prompt('Never been there, will visit in future Inshalla, have another guess');
+
+  }
+
+
+
+
+}
+
+
+
 
 
 
