@@ -88,7 +88,7 @@ if (shisha==='yes'||shisha==='y'){
 let lucknum = prompt('Can you guess my luck number it is below 15? (4 attempts only)');
 let attempts = 0;
 let myluck = 7;
-while(attempts <=4){
+while(attempts <4){
   if (Number(lucknum)=== myluck +2 || Number(lucknum===myluck+1)){
     lucknum = prompt('HOT! slightly higher, Try again');
     lucknum= Number(lucknum);
@@ -122,7 +122,7 @@ if(lucknum!==myluck){
 let cities = ['istanbul', 'kuala lumpur', 'alanya', 'hague', 'dubai', 'beirut', 'candy'];
 let whatCity = prompt('Lets see, will you be able to guess my favorit cities?');
 
-for(let i=0;i<=6;i++){
+for(let i=0;i<6;i++){
   if(cities.includes(whatCity)){
     console.log('Isn`t it amazing city?');
     alert('Isn`t it amazing city?');
